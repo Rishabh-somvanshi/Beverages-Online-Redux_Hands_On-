@@ -1,0 +1,16 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.loginHeader {
+  border: 5px outset rgb(239, 251, 252);
+  background-color: rgb(59, 159, 192);
+  text-align: center;
+}
+.set {
+  text-align: center;
+}
+.pageHeader {
+  background-color: rgb(206, 197, 197);
+}
