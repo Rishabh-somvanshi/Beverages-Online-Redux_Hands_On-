@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import Login from './Login';
+import Index from './Index';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -10,7 +11,7 @@ export default function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Login} />
+          <Route path="/" exact component={Index} />
           <Route path="/about" component={Login} />
           <Route path="/contact" component={Login} />
           <Route path="/signin" component={Login} />
