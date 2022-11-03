@@ -12,25 +12,32 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLogo to="/">Beverages Online</NavLogo>
+        <NavLogo to="/">Founder</NavLogo>
         <Bars />
 
         <NavMenu>
           <NavLink to="/" activeStyle>
-            Home
+          About
           </NavLink>
-          <NavLink to="/about" activeStyle>
-            View Cart
+          <NavLink to="/viewCart" activeStyle>
+            Premier
           </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Logout
+          {/* <NavLink to="/mostpopular" activeStyle>
+            
+          </NavLink> */}
+          <NavLink to="/login" activeStyle>
+            Sign Up
           </NavLink>
-          <NavLink to="/signin" activeStyle>
-            Register
+          {/* <NavLink to="/login" activeStyle>
+            In Temple
           </NavLink>
-          <NavBtn>
-            <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>
-          </NavBtn>
+          <NavLink to="/login" activeStyle>
+            In Void
+          </NavLink>
+          <NavLink to="/login" activeStyle>
+            #BAYC
+          </NavLink> */}
+         
         </NavMenu>
       </Nav>
     </>

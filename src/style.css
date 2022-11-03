@@ -14,3 +14,11 @@ p {
 .pageHeader {
   background-color: rgb(206, 197, 197);
 }
+
+/* .background {
+  background-image: url("./images/illustration file.svg");
+} */
+
+body {
+  background: url(illustrationfile.svg);
+}

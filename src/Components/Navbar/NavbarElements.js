@@ -19,19 +19,21 @@ export const NavLogo = styled(Link)`
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-  &.active {
-    color: black;
-  }
-  &:hover {
-    color: black;
-  }
+border-radius: 4px;
+background: transparent;
+padding: 10px 22px;
+color: #fff;
+outline: none;
+border: 1px solid #fff;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+margin-left: 24px;
+&:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #808080;
+}
 `;
 
 export const Bars = styled(FaBars)`
